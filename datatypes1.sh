@@ -11,13 +11,13 @@ echo "The sum of $NUMBER1 and $NUMBER2 is: $SUM"
 DIFFERENCE=$(($NUMBER1 - $NUMBER2))
 
 echo "The difference of $NUMBER1 and $NUMBER2 is: $DIFFERENCE"
-PRODUCT=$(($NUMBER1 * $NUMBER2))
+PRODUCT=$(($NUMBER * $NUMBER2))
 
 echo "The product of $NUMBER1 and $NUMBER2 is: $PRODUCT"
-QUOTIENT=$(($NUMBER1 / $NUMBER2))
+QUOTIENT=$(($NUMBER / $NUMBER2))
 
 echo "The quotient of $NUMBER1 and $NUMBER2 is: $QUOTIENT"
-REMAINDER=$(($NUMBER1 % $NUMBER2))
+REMAINDER=$(($NUMBER % $NUMBER2))
 
 echo "The remainder of $NUMBER1 and $NUMBER2 is: $REMAINDER"
 
